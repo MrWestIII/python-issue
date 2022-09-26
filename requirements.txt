@@ -1,15 +1,15 @@
-bleach==2.1.4
+bleach==3.3.0
 certifi==2018.8.24
 entrypoints==0.2.3
 Flask==1.0.2
 gtfs-realtime-bindings==0.0.5
-Pygments==2.2.0
+Pygments==2.7.4
 pyparsing==2.2.0
 PySocks==1.6.8
 python-dateutil==2.7.3
 pyzmq==17.1.2
 qtconsole==4.4.1
-requests==2.19.1 --no-binary=requests
+requests==2.20 --no-binary=requests
 requests-oauthlib==1.0.0
 Send2Trash==1.5.0
 simplegeneric==0.8.1
@@ -17,3 +17,4 @@ six==1.11.0
 terminado==0.8.1
 testpath==0.4.1
 tornado==5.1.1
+urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
